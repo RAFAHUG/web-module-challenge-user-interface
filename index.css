@@ -77,7 +77,7 @@ background: white;
 color: pink;/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
 }
 
-.about {
+section.about {
   margin-top: 20px;
 }/*======= Create a selector for the about section to have the following styles:
   margin-top: 20px;
@@ -120,7 +120,7 @@ footer nav {
   display: flex;
 }
 
-footer nav a {
+footer  a {
   margin: 10px;
   color: black;
   text-decoration: underline;
@@ -136,7 +136,7 @@ footer nav a:first-child {
   margin-left: 0;
 }
 
-footer nav a:hover{
+footer  a:hover{
   color: white;
 }
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
